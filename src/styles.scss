@@ -105,6 +105,38 @@ em {
     font-style: italic;
 }
 
+img.float-left {
+    float: left;
+    margin: 0 0.5rem 0 2rem;
+
+    width: 100%;
+    max-width: 200px;
+}
+
+img.float-right {
+    float: right;
+    margin: 0 2rem 0 0.5rem;
+
+    width: 100%;
+    max-width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    // img.float-left,
+    // img.float-right {
+    //     float: none;
+    //     margin: 0;
+
+    //     display: grid;
+    //     place-content: center;
+    // }
+
+    img.float-left,
+    img.float-right {
+        max-width: 32vw;
+    }
+}
+
 ul,
 ol {
     margin: 1rem 0;

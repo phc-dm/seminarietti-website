@@ -5,6 +5,8 @@ title: "Animazioni Matematiche in Python: Manim"
 
 # Animazioni Matematiche in Python: Manim
 
+<img class="float-right" src="/manim-logo-sidebar.svg" alt="Logo di Manim">
+
 Vi sarà capitato di vedere una qualche animazione di **3Blue1Brown** o di altri youtuber che trattano di **matematica divulgativa**.
 
 Ma come vengono create? La maggior parte di queste sono realizzate grazie ad una libreria **Python** chiamata **`manim`** che permette di programmare queste animazioni.
