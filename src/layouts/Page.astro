@@ -11,16 +11,16 @@ const { title, description } = Astro.props
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
-
-        <title>{title ? `${title} | Seminarietti del PHC` : 'Seminarietti del PHC'}</title>
 
         <!-- Open Graph Tags -->
         <meta property="og:title" content={title ?? 'Seminarietti del PHC'} />
         <meta property="og:description" content={description ?? 'I seminarietti del PHC sono una serie di piccoli seminari tenuti da membri del PHC.'} />
         <meta property="og:image" content="/favicon.png" />
+
+        <title>{title ? `${title} | Seminarietti del PHC` : 'Seminarietti del PHC'}</title>
     </head>
     <body>
         <slot />
