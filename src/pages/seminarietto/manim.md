@@ -1,6 +1,7 @@
 ---
 layout: ../../layouts/Seminarietto.astro
 title: "Animazioni Matematiche in Python: Manim"
+description: "Seminarietto di introduzione a Manim, una libreria Python per creare animazioni matematiche"
 ---
 
 # Animazioni Matematiche in Python: Manim

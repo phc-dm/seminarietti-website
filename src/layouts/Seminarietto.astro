@@ -5,7 +5,7 @@ import { Content as Contacts } from '../content/contacts.md'
 const { frontmatter } = Astro.props
 ---
 
-<Page title={frontmatter.title}>
+<Page title={frontmatter.title} description={frontmatter.description}>
     <header>
         <a href="/">&Leftarrow; &MediumSpace; Seminarietti del PHC</a>
     </header>
