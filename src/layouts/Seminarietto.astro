@@ -1,0 +1,16 @@
+---
+import Page from './Page.astro'
+import { Content as Contacts } from '../pages/components/contacts.md'
+
+const { frontmatter } = Astro.props
+---
+
+<Page title={frontmatter.title}>
+    <header>
+        <a href="/">&Leftarrow; &MediumSpace; Seminarietti del PHC</a>
+    </header>
+    <main class="seminarietto">
+        <slot />
+        <Contacts />
+    </main>
+</Page>

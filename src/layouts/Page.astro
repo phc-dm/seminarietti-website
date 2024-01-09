@@ -1,0 +1,22 @@
+---
+import '../styles.scss'
+
+import '@fontsource/barlow/latin.css'
+import '@fontsource/bungee-inline/latin.css'
+import '@fontsource/source-code-pro/latin.css'
+
+const { title } = Astro.props
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title ? `{title} | Seminarietti del PHC` : 'Seminarietti del PHC'}</title>
+    </head>
+    <body>
+        <slot />
+    </body>
+</html>

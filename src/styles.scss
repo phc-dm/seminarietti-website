@@ -1,0 +1,220 @@
+//
+// Reset
+//
+
+*,
+*::before,
+*::after {
+    font-family: inherit;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    color: #333;
+}
+
+img {
+    display: block;
+}
+
+//
+// Typography
+//
+
+@for $i from 1 through 5 {
+    h#{$i} {
+        text-align: center;
+        font-family: 'Bungee Inline', cursive;
+        font-style: normal;
+        font-weight: 400;
+    }
+}
+
+h1 {
+    width: 100%;
+
+    font-size: 64px;
+
+    background: linear-gradient(267deg, #bc74f5 5.77%, #6b1d86 89.87%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 94.5%;
+
+    margin: 1.5rem 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 41px;
+    }
+}
+
+h2 {
+    color: #975cc6;
+    text-align: center;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    font-size: 37px;
+
+    margin: 1rem 0 0.75rem;
+}
+
+h3 {
+    color: #6b1d86;
+    text-align: center;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin: 1rem 0 0.75rem;
+}
+
+main > p {
+    padding: 0 2rem;
+
+    @media screen and (max-width: 768px) {
+        padding: 0 1rem;
+    }
+}
+
+p + p {
+    margin-top: 1rem;
+}
+
+strong {
+    font-weight: 600;
+}
+
+em {
+    font-style: italic;
+}
+
+ul,
+ol {
+    margin: 1rem 0;
+
+    padding: 0 1rem 0 3rem;
+
+    @media screen and (max-width: 768px) {
+        padding-left: 2rem;
+    }
+
+    p + p {
+        margin-top: 0.5rem;
+    }
+}
+
+li {
+    margin: 1rem 0;
+
+    &::marker {
+        color: #3b0d4b;
+    }
+}
+
+a,
+a:visited {
+    color: #6b1d86;
+    // text-decoration: underline;
+    text-decoration: none;
+
+    padding: 1px 3px;
+
+    border-radius: 4px;
+
+    word-wrap: break-word;
+
+    &:hover {
+        background: #975cc6;
+        color: #fff;
+    }
+}
+
+//
+// Components
+//
+
+.main-link {
+    margin: 1rem auto;
+
+    padding: 1rem;
+
+    border: 2px solid #bc74f5;
+
+    &:hover {
+        background: #6b1d86;
+    }
+}
+
+//
+// Structure
+//
+
+body {
+    width: 100%;
+
+    margin: 0 auto;
+    max-width: 80ch;
+
+    padding-bottom: 5rem;
+
+    header {
+        padding: 1rem 0.5rem;
+
+        display: grid;
+        justify-content: start;
+        align-items: center;
+
+        a,
+        a:visited {
+            padding: 0;
+
+            color: #975cc6;
+            text-align: center;
+            font-family: Barlow;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+
+            padding: 0 0.5rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            place-content: center;
+
+            padding: 0.5rem;
+        }
+    }
+
+    main {
+        &.seminarietto {
+            border: 8px solid #6b1d86;
+        }
+
+        padding-bottom: 2rem;
+
+        @media screen and (max-width: 768px) {
+            &,
+            &.seminarietto {
+                border: 0;
+            }
+        }
+    }
+}
