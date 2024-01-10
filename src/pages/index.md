@@ -2,7 +2,7 @@
 layout: ../layouts/Homepage.astro
 ---
 
-# Seminarietti del PHC
+# Seminarietti <br> del PHC
 
 Bla bla bla cosa sono i seminarietti...
 
@@ -10,11 +10,11 @@ Bla bla bla cosa sono i seminarietti...
 
 Questi sono i seminarietti pianificati che faremo a breve, in ordine cronologico dal più recente al più vecchio
 
-- [Animazioni Matematiche in Python: Manim](./seminarietto/manim/)
+- [Animazioni Matematiche in Python: Manim](./seminarietto/manim/) -- In questo seminarietto parleremo della libreria `manim` creata da Grant Sanderson (3Blue1Brown) per creare le animazioni matematiche che utlizza nei suoi video.
 
-Mentre questi sono quelli che sono stati fatti in passato, per ora non abbiamo ancora le pagine per alcuni di questi
+Mentre questi sono quelli che sono stati fatti in passato, per ora non abbiamo ancora le pagine per alcuni di questi:
 
-- [Wolfram Cloud & Mathematica](#) (TODO: Creare la pagina)
+- **Wolfram Cloud e Mathematica** -- In questo seminarietto abbiamo parlato di come poter utilizzare Mathematica gratuitamente attraverso Wolfram Cloud e di come poterlo utilizzare per fare calcoli e grafici interattivi
 
     
 

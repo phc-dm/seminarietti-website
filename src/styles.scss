@@ -59,6 +59,10 @@ h1 {
     @media screen and (max-width: 768px) {
         font-size: 41px;
     }
+
+    main:not(.seminarietto) & {
+        margin-top: 3rem;
+    }
 }
 
 h2 {
@@ -98,10 +102,11 @@ p + p {
 }
 
 strong {
-    font-weight: 600;
+    font-weight: 500;
 }
 
-pre, code {
+pre,
+code {
     font-family: 'Source Code Pro', monospace;
     font-size: 90%;
 }
@@ -145,8 +150,7 @@ img.float-right {
 ul,
 ol {
     margin: 1rem 0;
-
-    padding: 0 1rem 0 3rem;
+    padding: 0 1rem 0 3.5rem;
 
     @media screen and (max-width: 768px) {
         padding-left: 2rem;
@@ -161,42 +165,32 @@ li {
     margin: 1rem 0;
 
     &::marker {
-        color: #3b0d4b;
+        color: #444;
     }
 }
 
 a,
 a:visited {
     color: #6b1d86;
-    // text-decoration: underline;
     text-decoration: none;
 
-    padding: 1px 3px;
-
-    border-radius: 4px;
+    border-radius: 2px;
 
     word-wrap: break-word;
 
+    font-weight: 500;
+
     &:hover {
+        box-shadow: -2px 0 0 2px #975cc6, +2px 0 0 2px #975cc6;
         background: #975cc6;
         color: #fff;
     }
 }
 
-//
-// Components
-//
-
-.main-link {
-    margin: 1rem auto;
-
-    padding: 1rem;
-
-    border: 2px solid #bc74f5;
-
-    &:hover {
-        background: #6b1d86;
-    }
+iframe {
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 0.25rem;
 }
 
 //
@@ -204,12 +198,13 @@ a:visited {
 //
 
 body {
-    width: 100%;
-
+    padding-bottom: 5rem;
     margin: 0 auto;
+
+    width: 100%;
     max-width: 80ch;
 
-    padding-bottom: 5rem;
+    line-height: 1.25;
 
     header {
         padding: 1rem 0.5rem;
@@ -230,7 +225,11 @@ body {
             font-weight: 700;
             line-height: normal;
 
-            padding: 0 0.5rem;
+            padding: 0 0.25rem;
+
+            // background: #fff;
+            // box-shadow: -2px 0 0 2px #fff, +2px 0 0 2px #fff;
+            // border: 2px solid #bc74f5;
         }
 
         @media screen and (max-width: 768px) {
@@ -241,6 +240,8 @@ body {
     }
 
     main {
+        background: #fff;
+
         &.seminarietto {
             border: 8px solid #6b1d86;
         }
