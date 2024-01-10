@@ -1,21 +1,21 @@
 {
-  "name": "website",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "@fontsource/barlow": "^5.0.8",
-    "@fontsource/bungee-inline": "^5.0.18",
-    "@fontsource/source-code-pro": "^5.0.16",
-    "astro": "^4.1.1"
-  },
-  "devDependencies": {
-    "sass": "^1.69.7"
-  }
+    "name": "website",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "start": "astro dev",
+        "build": "astro build && cp _redirects out/_redirects",
+        "preview": "astro preview",
+        "astro": "astro"
+    },
+    "dependencies": {
+        "@fontsource/barlow": "^5.0.8",
+        "@fontsource/bungee-inline": "^5.0.18",
+        "@fontsource/source-code-pro": "^5.0.16",
+        "astro": "^4.1.1"
+    },
+    "devDependencies": {
+        "sass": "^1.69.7"
+    }
 }
