@@ -36,9 +36,11 @@ Alcuni link utili relativi a questo seminarietto se volete già iniziare a dare 
     
 Inoltre sempre 3Blue1Brown ha organizzato due eventi chiamati **Summer of Math Exposition** in cui ha indotto una competizione per creare animazioni matematiche negli scorso anni. Veramente moltissime persone hanno partecipato e la maggior parte ha usando `manim` per animare i propri video
 
-- [Summer of Math Exposition (2021)](https://www.youtube.com/hashtag/some1)
+- [Summer of Math Exposition (2021)](https://www.youtube.com/playlist?list=PLnQX-jgAF5pTkwtUuVpqS5tuWmJ-6ZM-Z)
 
-- [Summer of Math Exposition (2022)](https://www.youtube.com/hashtag/some2)
+- [Summer of Math Exposition (2022)](https://www.youtube.com/playlist?list=PLnQX-jgAF5pTZXPiD8ciEARRylD9brJXU)
+
+- [Summer of Math Exposition (2023)](https://www.youtube.com/playlist?list=PLnQX-jgAF5pQS2GUFCsatSyZkSH7e8UM8)
 
 Ad esempio questi sono alcuni video interessanti creati utilizzando `manim`:
 
