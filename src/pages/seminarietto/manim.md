@@ -34,7 +34,7 @@ Alcuni link utili relativi a questo seminarietto se volete già iniziare a dare 
 
     Lui è il creatore della versione originale di `manim`, uno youtuber che fa molti video di matematica divulgativa. Poi un gruppo di persone l'ha [forkata](https://en.wikipedia.org/wiki/Fork_(software_development)) e creato la versione _community_ che è quella consigliata da usare.
     
-Inoltre sempre 3Blue1Brown ha organizzato due eventi chiamati **Summer of Math Exposition** in cui ha indotto una competizione per creare animazioni matematiche negli scorso anni. Veramente moltissime persone hanno partecipato e la maggior parte ha usando `manim` per animare i propri video
+Inoltre sempre 3Blue1Brown ha organizzato due eventi chiamati [Summer of Math Exposition](https://some.3b1b.co/) in cui ha indotto una competizione per creare animazioni matematiche negli scorso anni. Veramente moltissime persone hanno partecipato e la maggior parte ha usando `manim` per animare i propri video
 
 - [Summer of Math Exposition (2021)](https://www.youtube.com/playlist?list=PLnQX-jgAF5pTkwtUuVpqS5tuWmJ-6ZM-Z)
 
