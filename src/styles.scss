@@ -191,6 +191,13 @@ iframe {
     display: block;
     margin: 1.5rem auto;
     border-radius: 0.25rem;
+
+    @media screen and (max-width: 768px) {
+        border-radius: 0;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
 }
 
 //
