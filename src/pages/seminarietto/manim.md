@@ -20,8 +20,6 @@ Seguirà una parte interattiva in cui raccoglieremo alcune idee e proveremo a cr
 
 Ci vediamo il  **31 Gennaio alle 18:00 in Aula 3**. Probabilmente registreremo il seminarietto, ma consigliamo fortemente di partecipare in presenza visto che sarà molto interattivo
 
-[Clicca qui per aggiungere l'evento su Google Calendar](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDFtZWJhanB1ZzM5NWVqN3BmbmFlcDlydTYgbHVjYWJlbmppQG0&tmsrc=lucabenji%40gmail.com)
-
 ## Dettagli
 
 Alcuni link utili relativi a questo seminarietto se volete già iniziare a dare un’occhiata:
