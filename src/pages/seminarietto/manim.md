@@ -18,9 +18,13 @@ Seguirà una parte interattiva in cui raccoglieremo alcune idee e proveremo a cr
 
 ## Dove e Quando?
 
+Il seminarietto si terrà **Mercoledì 31 Gennaio** in **Aula 3**.
+
+<!-- 
 Per ora è a data da destinarsi, fateci sapere se siete interessati attraverso il segue form di disponibilità:
 
 - <https://www.when2meet.com/?23032856-6BFOp>
+ -->
 
 ## Dettagli
 
@@ -45,3 +49,9 @@ Inoltre sempre 3Blue1Brown ha organizzato due eventi chiamati [Summer of Math Ex
 Ad esempio questi sono alcuni video interessanti creati utilizzando `manim`:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AmgkSdhK4K8?si=rsxSlAmWheebbaR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Materiale Post Seminarietto
+
+Il seminarietto si è tenuto il 31 Gennaio 2023, ecco la registrazione del seminarietto (avvertimento: è la prima volta che ne registriamo uno ed il video ogni tanto lagga mentre l'audio sembra essere venuto relativamente bene, giustamente compilare animazioni con Manim e nel frattempo registrare lo schermo non vanno molto d'accordo)
+
+<iframe title="Registrazione del Seminarietto" frameborder="0" src="https://drive.google.com/file/d/1vmH2Je-VGIVRfKyXlnS1AEUYTPMHIE8X/preview" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
