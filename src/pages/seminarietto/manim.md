@@ -57,3 +57,5 @@ Il seminarietto si è tenuto il 31 Gennaio 2023, ecco la registrazione del semin
 <iframe title="Registrazione del Seminarietto" frameborder="0" src="https://drive.google.com/file/d/1vmH2Je-VGIVRfKyXlnS1AEUYTPMHIE8X/preview" width="560" height="315" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **Nota:** è la prima volta che ne registriamo uno ed il video ogni tanto lagga. L'audio invece sembra essere venuto relativamente bene, giustamente compilare animazioni con Manim e nel frattempo registrare lo schermo non vanno molto d'accordo
+
+Per ora ancora nessuno si è cimentato nella realizzazione di un'animazione ma appena qualcuno ci prova caricheremo qua video e codice.
