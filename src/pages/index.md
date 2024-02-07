@@ -4,7 +4,8 @@ layout: ../layouts/Homepage.astro
 
 # Seminarietti <br> del PHC
 
-Bla bla bla cosa sono i seminarietti...
+I seminarietti sono organizzati dai _macchinisti_ e sono un'occasione per poter parlare assieme, in maniera informale, di argomenti interessanti a sfondo matematico ed informatico. Sono organizzati dal PHC e sono aperti a tutti! Di norma un membro del PHC fa da speaker e presenta l'argomento, ma invitiamo tutti a proporre argomenti che vorrebbero vedere trattati o di cui vorrebbero parlare.
+
 
 ## Seminarietti
 
@@ -15,8 +16,6 @@ Questi sono i seminarietti pianificati che faremo a breve, in ordine cronologico
 Mentre questi sono quelli che sono stati fatti in passato, per ora non abbiamo ancora le pagine per alcuni di questi:
 
 - **Wolfram Cloud e Mathematica** -- In questo seminarietto abbiamo parlato di come poter utilizzare Mathematica gratuitamente attraverso Wolfram Cloud e di come poterlo utilizzare per fare calcoli e grafici interattivi
-
-    
 
 <!-- - [Wolfram Cloud & Mathematica](./seminarietto/mathematica/) -->
 
