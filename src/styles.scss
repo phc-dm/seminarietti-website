@@ -112,8 +112,17 @@ code {
 }
 
 pre {
-    margin: 0.5rem 0;
-    // user-select: all;
+    margin: 0.5rem 2rem;
+
+    background: #f4f4f4 !important;
+
+    // border: 1px solid #975cc6;
+    padding: 0.5rem;
+    // border-radius: 0.25rem;
+
+    @media screen and (max-width: 768px) {
+        margin: 0.5rem 1rem;
+    }
 }
 
 em {

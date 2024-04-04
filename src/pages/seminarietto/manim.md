@@ -59,3 +59,17 @@ Il seminarietto si è tenuto il 31 Gennaio 2023, ecco la registrazione del semin
 **Nota:** è la prima volta che ne registriamo uno ed il video ogni tanto lagga. L'audio invece sembra essere venuto relativamente bene, giustamente compilare animazioni con Manim e nel frattempo registrare lo schermo non vanno molto d'accordo
 
 Per ora ancora nessuno si è cimentato nella realizzazione di un'animazione ma appena qualcuno ci prova caricheremo qua video e codice.
+
+### Installare Manim in Aula 3 e 4
+
+Tutte le dipendenze `apt` di manim sono già installate, per installare il pacchetto Python per il proprio utente basta eseguire
+
+```bash
+pip install manim
+```
+
+Se il comando `manim` non funziona allora probabilmente manca `~/.local/bin` nella variabile d'ambiente `PATH`, per aggiungerlo basta aggiungere la seguente riga alla fine del proprio `.bashrc` che si trova in `~/.bashrc`
+
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
