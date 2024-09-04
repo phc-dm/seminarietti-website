@@ -10,7 +10,7 @@ description: Seminarietto di introduzione a Manim, una libreria Python per
 
 Vi sarà capitato di vedere una qualche animazione di **3Blue1Brown** o di altri youtuber che trattano di **matematica divulgativa**.
 
-Ma come vengono create? La maggior parte di queste sono realizzate grazie ad una libreria **Python** chiamata **`manim`** che permette di programmare queste animazioniiii.
+Ma come vengono create? La maggior parte di queste sono realizzate grazie ad una libreria **Python** chiamata **`manim`** che permette di programmare queste animazioni.
 
 In questo seminarietto vedremo brevemente come installare e come funziona questa libreria seguendo gli esempi della documentazione.
 
