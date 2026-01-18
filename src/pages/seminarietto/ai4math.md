@@ -61,4 +61,4 @@ Questi sono alcuni articoli recenti sull'argomento:
 
 ## Dove e Quando?
 
-Il seminario si terrà alla fine della sessione verso fine Febbrario/inizio Marzo.
+Il seminario si terrà alla fine della sessione verso fine Febbrario/inizio Marzo 2026, in Aula Magna del Dipartimento di Matematica.

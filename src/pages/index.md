@@ -10,7 +10,7 @@ I seminarietti sono organizzati dai _macchinisti_ e sono un'occasione per poter 
 
 Questi sono i seminarietti pianificati che faremo a breve, in ordine cronologico dal più recente al più vecchio
 
-- [AI e Matematica](./seminarietto/ai4math/) (~Fine Febbraio 2025) -- Una conferenza con dibattito sull'utilizzo dell'Intelligenza Artificiale in ambito didattico e di ricerca.
+- [AI e Matematica](./seminarietto/ai4math/) (~Fine Febbraio 2026) -- Una conferenza con dibattito sull'utilizzo dell'Intelligenza Artificiale in ambito didattico e di ricerca.
 
 - [Animazioni Matematiche in Python: Manim](./seminarietto/manim/) (31 Gennaio 2023) -- In questo seminarietto parleremo della libreria `manim` creata da Grant Sanderson (3Blue1Brown) per creare le animazioni matematiche che utlizza nei suoi video.
 
