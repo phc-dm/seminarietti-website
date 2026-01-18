@@ -22,7 +22,7 @@ Compila il sondaggio
 
 ## Dettagli
 
-### Post di Terence Tao e altri
+### Threads
 
 Terence Tao ed altri hanno condiviso molte esperienze interessanti riguardo l'utilizzo dell'IA in ambito matematico sui social. Ecco una raccolta di alcuni post interessanti:
 
@@ -55,9 +55,9 @@ Questi sono alcuni articoli recenti sull'argomento:
 
 ### Video e Interviste
 
-- [YouTube: Terence Tao, inaugural Veritas Fellow — autoformalizing number theory | Math, Inc.](https://www.youtube.com/watch?v=KeX9JqepgiM)
+- [YouTube: Terence Tao, Autoformalizing Number Theory](https://www.youtube.com/watch?v=KeX9JqepgiM)
 
-- [YouTube: Terry Tao on the future of mathematics | Math, Inc.](https://www.youtube.com/watch?v=4ykbHwZQ8iU)
+- [YouTube: Terry Tao on the future of mathematics](https://www.youtube.com/watch?v=4ykbHwZQ8iU)
 
 ## Dove e Quando?
 
