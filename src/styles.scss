@@ -14,7 +14,7 @@ html,
 body {
     min-height: 100%;
 
-    font-family: 'Barlow', sans-serif;
+    font-family: "Barlow", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -37,7 +37,7 @@ img {
 @for $i from 1 through 5 {
     h#{$i} {
         text-align: center;
-        font-family: 'Bungee Inline', cursive;
+        font-family: "Bungee Inline", cursive;
         font-style: normal;
         font-weight: 400;
     }
@@ -80,13 +80,13 @@ h2 {
 
 h3 {
     color: #6b1d86;
-    text-align: center;
+    text-align: left;
     font-family: Barlow;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 
-    margin: 1rem 0 0.75rem;
+    margin: 1rem 2rem 0.75rem;
 }
 
 main > p {
@@ -102,12 +102,12 @@ p + p {
 }
 
 strong {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 pre,
 code {
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 90%;
 }
 
@@ -195,7 +195,9 @@ a:visited {
     font-weight: 500;
 
     &:hover {
-        box-shadow: -2px 0 0 2px #975cc6, +2px 0 0 2px #975cc6;
+        box-shadow:
+            -2px 0 0 2px #975cc6,
+            +2px 0 0 2px #975cc6;
         background: #975cc6;
         color: #fff;
     }
