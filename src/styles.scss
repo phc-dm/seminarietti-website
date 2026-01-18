@@ -28,6 +28,9 @@ body {
 
 img {
     display: block;
+    max-width: 100%;
+    margin: 0.5rem auto;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
 //
@@ -200,6 +203,26 @@ a:visited {
             +2px 0 0 2px #975cc6;
         background: #975cc6;
         color: #fff;
+    }
+
+    &.primary {
+        background: linear-gradient(267deg, #bc74f5 5.77%, #6b1d86 89.87%);
+        color: #fff;
+
+        box-shadow: none;
+
+        font-size: 22px;
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
+
+        transition: transform 0.1s ease-in-out;
+        transform-origin: center;
+
+        display: inline-block;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }
 

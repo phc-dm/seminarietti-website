@@ -15,9 +15,16 @@ L'idea nasce da recenti articoli di **Terence Tao** riguardo l'utilizzo dell'IA 
 Per aiutarci nell'organizzazione della conferenza, chiediamo a **studenti**, **dottorandi**, **ricercatori** e **docenti** di compilare il seguente questionario (anonimo):
 
 <p align="center">
-<a href="https://forms.gle/pheKwXyGVHaFSAzx8">
+<a class="primary" href="https://forms.gle/pheKwXyGVHaFSAzx8">
 Compila il sondaggio
 </a>
+</p>
+
+## Poster
+
+<p align="center">
+<img src="/ai4math-poster.jpg" alt="Poster del seminarietto AI e Matematica" width="400"/>
+<a href="/ai4math-poster.pdf">Scarica il poster (PDF)</a>
 </p>
 
 ## Dettagli
@@ -61,4 +68,4 @@ Questi sono alcuni articoli recenti sull'argomento:
 
 ## Dove e Quando?
 
-Il seminario si terrà alla fine della sessione verso fine Febbrario/inizio Marzo 2026, in Aula Magna del Dipartimento di Matematica.
+Il seminario si terrà alla fine della sessione **verso fine Febbraio/inizio Marzo 2026**, in Aula Magna del Dipartimento di Matematica.
