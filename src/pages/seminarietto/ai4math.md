@@ -10,6 +10,32 @@ Negli ultimi tempi l'utilizzo dell'Intelligenza Artificiale è diventato sempre 
 
 L'idea nasce da recenti articoli di **Terence Tao** riguardo l'utilizzo dell'IA come strumento per facilitare la ricerca e affrontare nuovi problemi in modo più efficiente, oltre alla sempre più diffusa adozione dell'IA tra gli studenti per studiare o ricercare informazioni.
 
+## Dove e Quando?
+
+Il seminario si terrà **mercoledì 25 Marzo 2026**, in Aula Magna del Dipartimento di Matematica.
+
+### Schedule
+
+- 16:00–16:30 -- **Introduzione agli LLM**
+
+    _Francesco Morandin_
+
+- 16:30–17:00 -- **Come (non) fare matematica con l'AI?**
+
+    _Antonio De Lucrezis, Diego Monaco_
+
+- 17:00–17:30 -- **AI e Ricerca Matematica**
+
+    _Emanuele Paolini, Matteo Novaga_
+
+- 17:30–18:00 -- **Case Study in Geometria Algebrica**
+
+    _Andrea Maffei_
+
+- 18:00–∞ -- **Discussione Aperta**
+
+    Seguirà una discussione aperta con il pubblico, per condividere esperienze, opinioni e idee riguardo l'utilizzo dell'IA in ambito matematico, sia a livello didattico che di ricerca.
+
 ## Sondaggio
 
 Per aiutarci nell'organizzazione della conferenza, chiediamo a **studenti**, **dottorandi**, **ricercatori** e **docenti** di compilare il seguente questionario (anonimo):
@@ -23,8 +49,13 @@ Compila il sondaggio
 ## Poster
 
 <p align="center">
-<img src="/ai4math-poster.jpg" alt="Poster del seminarietto AI e Matematica" width="400"/>
-<a href="/ai4math-poster.pdf">Scarica il poster (PDF)</a>
+<img src="/ai4math-poster-2.jpg" alt="Secondo poster del seminarietto AI e Matematica" width="400"/>
+<a href="/ai4math-poster-2.pdf">Scarica il nuovo poster (PDF)</a>
+</p>
+
+<p align="center">
+<img src="/ai4math-poster.jpg" alt="Primo poster del seminarietto AI e Matematica" width="300"/>
+<a href="/ai4math-poster.pdf">Scarica il vecchio poster (PDF)</a>
 </p>
 
 ## Dettagli
@@ -60,12 +91,13 @@ Questi sono alcuni articoli recenti sull'argomento:
 
 - [arXiv 2601.07222](https://arxiv.org/abs/2601.07222) -- "The motivic class of the space of genus 0 maps to the flag variety" risultato con note sull'interazione con Gemini.
 
+- [First Proof](https://1stproof.org/) -- _"A set of ten math questions to evaluate the capabilities of AI systems to autonomously solve problems that arise naturally in the research process."_
+
+- [Accelerating Mathematical and Scientific Discovery with Gemini Deep Think
+  ](https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/)
+
 ### Video e Interviste
 
 - [YouTube: Terence Tao, Autoformalizing Number Theory](https://www.youtube.com/watch?v=KeX9JqepgiM)
 
 - [YouTube: Terry Tao on the future of mathematics](https://www.youtube.com/watch?v=4ykbHwZQ8iU)
-
-## Dove e Quando?
-
-Il seminario si terrà alla fine della sessione **verso fine Febbraio/inizio Marzo 2026**, in Aula Magna del Dipartimento di Matematica.
