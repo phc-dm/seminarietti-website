@@ -31,7 +31,7 @@ Il seminario si terrà **mercoledì 25 Marzo 2026**, in Aula Magna del Dipartime
 - 17:30–18:00 -- **Case Study in Geometria Algebrica**
 
     _Andrea Maffei_
-    - [PDF dei prompt dell'interazione con Aletheia](https://raw.githubusercontent.com/google-deepmind/superhuman/main/aletheia/F26/F26.pdf)
+    - [PDF dei prompt dell'interazione con Aletheia](https://github.com/google-deepmind/superhuman/tree/main/aletheia/F26)
 
     - Paper originale di Tony Feng: [Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)
 
