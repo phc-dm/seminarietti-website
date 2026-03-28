@@ -176,6 +176,11 @@ ol {
     p + p {
         margin-top: 0.5rem;
     }
+
+    ul,
+    ol {
+        padding-left: 1.5rem;
+    }
 }
 
 li {

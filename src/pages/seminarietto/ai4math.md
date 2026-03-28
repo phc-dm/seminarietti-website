@@ -18,19 +18,22 @@ Il seminario si terrà **mercoledì 25 Marzo 2026**, in Aula Magna del Dipartime
 
 - 16:00–16:30 -- **Introduzione agli LLM**
 
-    _Francesco Morandin_
+    _Francesco Morandin_ -- [Slide](/ai4math-morandin.pdf)
 
 - 16:30–17:00 -- **Come (non) fare matematica con l'AI?**
 
-    _Antonio De Lucrezis, Diego Monaco_
+    _Antonio De Lucreziis, Diego Monaco_ -- [Slide](/ai4math-delucreziis.pdf)
 
 - 17:00–17:30 -- **AI e Ricerca Matematica**
 
-    _Emanuele Paolini, Matteo Novaga_
+    _Emanuele Paolini, Matteo Novaga_ -- [Slide Paolini](https://paolini.codeberg.page/2026-03-25-seminarietto-ai/), [Slide Novaga](/ai4math-novaga.pdf)
 
 - 17:30–18:00 -- **Case Study in Geometria Algebrica**
 
     _Andrea Maffei_
+    - [PDF dei prompt dell'interazione con Aletheia](https://raw.githubusercontent.com/google-deepmind/superhuman/main/aletheia/F26/F26.pdf)
+
+    - Paper originale di Tony Feng: [Eigenweights for arithmetic Hirzebruch Proportionality](https://arxiv.org/abs/2601.23245)
 
 - 18:00–∞ -- **Discussione Aperta**
 
