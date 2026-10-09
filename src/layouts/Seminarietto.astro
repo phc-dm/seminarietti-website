@@ -11,6 +11,6 @@ const { frontmatter } = Astro.props
     </header>
     <main class="seminarietto">
         <slot />
-        <Contacts />
+        {frontmatter.contacts !== false && <Contacts />}
     </main>
 </Page>
