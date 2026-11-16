@@ -231,6 +231,104 @@ a:visited {
     }
 }
 
+.talk-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+    margin-top: 0.5rem;
+
+    a,
+    a:visited,
+    details.video-spoiler > summary {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+
+        padding: 0.15rem 0.65rem;
+        border: 1.5px solid #975cc6;
+        border-radius: 999px;
+        background: #faf7fd;
+        color: #6b1d86;
+
+        font-size: 0.85em;
+        font-weight: 500;
+        line-height: 1.3;
+        cursor: pointer;
+        user-select: none;
+        transition:
+            background 0.15s ease,
+            border-color 0.15s ease,
+            color 0.15s ease;
+
+        &::before {
+            content: "";
+            width: 0.9em;
+            height: 0.9em;
+            flex-shrink: 0;
+            background-color: currentColor;
+            mask-size: contain;
+            mask-repeat: no-repeat;
+            mask-position: center;
+        }
+
+        &:hover {
+            background: #975cc6;
+            border-color: #975cc6;
+            color: #fff;
+            box-shadow: none;
+        }
+    }
+
+    a[href$=".pdf"]::before {
+        mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z'/%3E%3Cpolyline points='14 2 14 8 20 8'/%3E%3Cline x1='16' y1='13' x2='8' y2='13'/%3E%3Cline x1='16' y1='17' x2='8' y2='17'/%3E%3C/svg%3E");
+    }
+
+    a:not([href$=".pdf"])::before {
+        mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='2' y='3' width='20' height='14' rx='2'/%3E%3Cline x1='8' y1='21' x2='16' y2='21'/%3E%3Cline x1='12' y1='17' x2='12' y2='21'/%3E%3C/svg%3E");
+    }
+
+    details.video-spoiler {
+        display: inline-block;
+
+        > summary {
+            list-style: none;
+
+            &::-webkit-details-marker {
+                display: none;
+            }
+
+            &::before {
+                mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'%3E%3Cpolygon points='6 4 20 12 6 20 6 4'/%3E%3C/svg%3E");
+            }
+        }
+
+        &[open] {
+            flex-basis: 100%;
+
+            > summary {
+                background: #6b1d86;
+                border-color: #6b1d86;
+                color: #fff;
+            }
+        }
+
+        video {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            margin-top: 0.6rem;
+            border-radius: 0.35rem;
+            box-shadow: 0 2px 12px rgba(107, 29, 134, 0.15);
+            background: #000;
+        }
+
+        .video-direct-link {
+            margin-top: 0.45rem;
+        }
+    }
+}
+
 iframe {
     display: block;
     margin: 1.5rem auto;

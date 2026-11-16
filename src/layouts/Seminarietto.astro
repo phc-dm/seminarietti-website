@@ -14,3 +14,17 @@ const { frontmatter } = Astro.props
         {frontmatter.contacts !== false && <Contacts />}
     </main>
 </Page>
+
+<script>
+    document.querySelectorAll("details.video-spoiler").forEach((details) => {
+        details.addEventListener("toggle", () => {
+            const video = details.querySelector("video")
+            if (!video) return
+            if (details instanceof HTMLDetailsElement && details.open) {
+                video.play().catch(() => {})
+            } else {
+                video.pause()
+            }
+        })
+    })
+</script>
